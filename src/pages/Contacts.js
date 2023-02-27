@@ -11,6 +11,7 @@ const Contacts = () => {
               <a
                 href="https://yandex.ru/maps/38/volgograd/?ll=44.646651%2C48.685105&z=11.52"
                 target="_blank"
+                rel="noreferrer"
               >
                 Volgograd, Russia
               </a>
@@ -19,7 +20,7 @@ const Contacts = () => {
           <li className="content-list__item">
             <h2 className="title-2">Telegram/Discord</h2>
             <p>
-              <a href="https://t.me/Garich14" target="_blank">
+              <a href="https://t.me/Garich14" target="_blank" rel="noreferrer">
                 @Garich14
               </a>
               /garich94#6402

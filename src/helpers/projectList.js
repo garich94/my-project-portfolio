@@ -18,6 +18,7 @@ import project06Big from "./../img/projects/06-big.jpg";
 
 const projects = [
   {
+    id: 1,
     title: "Gaming streaming portal",
     skills: "React, Node.js, MongpDB",
     img: project01,
@@ -26,6 +27,7 @@ const projects = [
   },
 
   {
+    id: 2,
     title: "Video service",
     skills: "React, Node.js, MongpDB",
     img: project02,
@@ -34,6 +36,7 @@ const projects = [
   },
 
   {
+    id: 3,
     title: "Video portal",
     skills: "React, Node.js, MongpDB",
     img: project03,
@@ -42,6 +45,7 @@ const projects = [
   },
 
   {
+    id: 4,
     title: "Dating app",
     skills: "React, Node.js, MongpDB",
     img: project04,
@@ -49,13 +53,15 @@ const projects = [
   },
 
   {
-    title: "Dating app",
+    id: 5,
+    title: "Landing",
     skills: "React, Node.js, MongpDB",
     img: project05,
     imgBig: project05Big,
   },
 
   {
+    id: 6,
     title: "Dating app",
     skills: "React, Node.js, MongpDB",
     img: project06,
