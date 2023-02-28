@@ -20,7 +20,11 @@ const Contacts = () => {
           <li className="content-list__item">
             <h2 className="title-2">Telegram/Discord</h2>
             <p>
-              <a href="https://t.me/Garich14" target="_blank" rel="noreferrer">
+              <a
+                href="https://www.guidedao.xyz/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 @Garich14
               </a>
               /garich94#6402

@@ -25,7 +25,7 @@ const BtnDarkMode = () => {
         const newColorScheme = event.matches ? "dark" : "light";
         setDarkMode(newColorScheme);
       });
-  }, []);
+  }, [setDarkMode]);
 
   const togleDarkMode = () => {
     setDarkMode((currentValue) => {

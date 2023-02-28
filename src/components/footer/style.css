@@ -23,6 +23,19 @@
 
 .copyright {
   font-size: 16px;
+  color: greenyellow;
+}
+
+.copyright a {
+  color: rgb(249, 117, 10);
+}
+
+.copyright a:hover {
+  color: red;
+}
+
+.copyright a:active {
+  color: greenyellow;
 }
 
 .copyright p + p {

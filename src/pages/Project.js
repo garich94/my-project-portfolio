@@ -6,8 +6,6 @@ const Project = () => {
   const { id } = useParams();
   const project = projects[id];
 
-  console.log(project);
-
   return (
     <main className="section">
       <div className="container">
@@ -24,7 +22,7 @@ const Project = () => {
             <p>{project.skills}</p>
           </div>
 
-          {project.gitHubLink && <BtnGitHub link="https://github.com/" />}
+          {project.gitHubLink && <BtnGitHub link={project.gitHubLink} />}
         </div>
       </div>
     </main>
