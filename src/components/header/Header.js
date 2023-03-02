@@ -16,7 +16,12 @@ const Header = () => {
             solidity developer.
           </p>
         </div>
-        <a href="https://github.com/garich94" target={"_blank"} className="btn">
+        <a
+          rel="noreferrer"
+          href="https://github.com/garich94"
+          target={"_blank"}
+          className="btn"
+        >
           Мой gitHub
         </a>
       </div>
