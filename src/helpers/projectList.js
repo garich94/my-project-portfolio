@@ -5,7 +5,7 @@ import project02 from "./../img/projects/02.png";
 import project02Big from "./../img/projects/02big.png";
 
 import project03 from "./../img/projects/03.png";
-import project03Big from "./../img/projects/03big.png";
+import project03Big from "./../img/projects/03bigg.png";
 
 const projects = [
   {
