@@ -15,6 +15,7 @@ const projects = [
     img: project01,
     imgBig: project01Big,
     gitHubLink: "https://github.com/garich94/my-quiz",
+    linkProject: "https://my-quiz-zkvu.vercel.app/",
   },
 
   {
@@ -24,6 +25,7 @@ const projects = [
     img: project02,
     imgBig: project02Big,
     gitHubLink: "https://github.com/garich94/my-counter",
+    linkProject: "https://my-schetchik-qcmf.vercel.app/",
   },
 
   {
@@ -33,6 +35,7 @@ const projects = [
     img: project03,
     imgBig: project03Big,
     gitHubLink: "https://github.com/garich94/users",
+    linkProject: "https://my-users.vercel.app/",
   },
 ];
 
