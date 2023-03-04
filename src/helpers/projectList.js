@@ -14,7 +14,7 @@ const projects = [
     skills: "React, JS, HTML/CSS",
     img: project01,
     imgBig: project01Big,
-    gitHubLink: "https://github.com/garich94/my-quiz",
+    gitHubLink: "https://github.com/garich94/my_quiz",
     linkProject: "https://my-quiz-zkvu.vercel.app/",
   },
 
@@ -24,7 +24,7 @@ const projects = [
     skills: "React, JS, HTML/CSS",
     img: project02,
     imgBig: project02Big,
-    gitHubLink: "https://github.com/garich94/my-counter",
+    gitHubLink: "https://github.com/garich94/my_schetchik",
     linkProject: "https://my-schetchik-qcmf.vercel.app/",
   },
 
@@ -34,7 +34,7 @@ const projects = [
     skills: "React, JS, HTML/CSS",
     img: project03,
     imgBig: project03Big,
-    gitHubLink: "https://github.com/garich94/users",
+    gitHubLink: "https://github.com/garich94/my_users",
     linkProject: "https://my-users.vercel.app/",
   },
 ];

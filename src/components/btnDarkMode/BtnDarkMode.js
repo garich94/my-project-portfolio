@@ -4,8 +4,6 @@ import { useLocalStorage } from "../../utils/useLocalStorage";
 import sun from "./sun.svg";
 import moon from "./moon.svg";
 
-import Home from "./../../pages/Home";
-
 import "./style.css";
 import detectDarkMode from "../../utils/detectDarkMode";
 
@@ -38,19 +36,15 @@ const BtnDarkMode = () => {
   const btnNormal = "dark-mode-btn";
   const btnActive = "dark-mode-btn dark-mode-btn--active";
 
-  if (Home === true) {
-    return null;
-  } else {
-    return (
-      <button
-        className={darkMode === "dark" ? btnActive : btnNormal}
-        onClick={togleDarkMode}
-      >
-        <img src={sun} alt="Light mode" className="dark-mode-btn__icon" />
-        <img src={moon} alt="Dark mode" className="dark-mode-btn__icon" />
-      </button>
-    );
-  }
+  return (
+    <button
+      className={darkMode === "dark" ? btnActive : btnNormal}
+      onClick={togleDarkMode}
+    >
+      <img src={sun} alt="Light mode" className="dark-mode-btn__icon" />
+      <img src={moon} alt="Dark mode" className="dark-mode-btn__icon" />
+    </button>
+  );
 };
 
 export default BtnDarkMode;
