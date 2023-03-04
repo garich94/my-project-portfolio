@@ -16,6 +16,7 @@ function App() {
     <div className="App">
       <Router>
         <ScrollToTop />
+
         <Navbar />
 
         <Routes>
