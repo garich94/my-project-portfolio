@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 
 import BtnDarkMode from "../btnDarkMode/BtnDarkMode";
 
@@ -8,6 +8,16 @@ const Navbar = () => {
   const activeLink = "nav-list__link nav-list__link--active";
   const normalLink = "nav-list__link";
 
+  const enumPathNames = {
+    HOME: "/",
+  };
+  const exludedPathsForShowingChangeThemeControll = [enumPathNames.HOME];
+
+  const location = useLocation();
+  const { pathname } = location;
+  const isShouldShowChangeThemeControll =
+    !exludedPathsForShowingChangeThemeControll.includes(pathname);
+
   return (
     <nav className="nav">
       <div className="container">
@@ -16,7 +26,7 @@ const Navbar = () => {
             <strong>Freelancer</strong> portfolio
           </NavLink>
 
-          <BtnDarkMode />
+          {isShouldShowChangeThemeControll && <BtnDarkMode />}
 
           <ul className="nav-list">
             <li className="nav-list__item">

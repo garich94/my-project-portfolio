@@ -1,6 +1,9 @@
 import "./style.css";
+//import { NavLink } from "react-router-dom";
 
 const Header = () => {
+  //const activeLink = "nav-list__link nav-list__link--active";
+  //const normalLink = "nav-list__link";
   return (
     <header className="header">
       <div className="header__wrapper">
